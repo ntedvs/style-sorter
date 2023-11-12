@@ -25,4 +25,4 @@ Style Sorter is a VS Code extension that sorts your declarations meaningfully.
 
 ## Credits
 
-- Extension is built on [css-declaration-sorter](https://github.com/Siilwyn/css-declaration-sorter/)
+- Extension is built on [css-declaration-sorter](https://github.com/Siilwyn/css-declaration-sorter/).

@@ -2,11 +2,11 @@
   "name": "style-sorter",
   "displayName": "Style Sorter",
   "description": "Style Sorter is a VS Code extension that sorts your declarations meaningfully.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "NateDavis",
   "private": "true",
   "license": "MIT",
-  "main": "./out/extension.js",
+  "main": "./out/main.js",
   "icon": "media/icon.png",
   "homepage": "https://github.com/NaeNate/style-sorter#readme",
   "author": {
@@ -29,9 +29,12 @@
     "vscode-extension"
   ],
   "scripts": {
-    "watch": "tsc -watch -p ./",
-    "compile": "tsc -p ./",
-    "vscode:prepublish": "yarn run compile"
+    "esbuild-watch": "pnpm run esbuild-base -- --sourcemap --watch",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "esbuild": "pnpm run esbuild-base --sourcemap",
+    "vscode:prepublish": "pnpm run esbuild-base --minify",
+    "package": "pnpm vsce package --no-dependencies",
+    "publish": "pnpm vsce publish --no-dependencies"
   },
   "dependencies": {
     "css-declaration-sorter": "^7.1.1",
@@ -40,6 +43,7 @@
   "devDependencies": {
     "@types/node": "^20.9.0",
     "@types/vscode": "^1.84.1",
+    "esbuild": "^0.19.5",
     "typescript": "^5.2.2"
   },
   "contributes": {
