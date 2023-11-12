@@ -4,7 +4,14 @@ Style Sorter is a VS Code extension that sorts your declarations meaningfully.
 
 ## Installation
 
-- Open the extensions panel in VSCode
+#### Option 1
+
+- Click [here](https://marketplace.visualstudio.com/items?itemName=NateDavis.style-sorter&ssr=false)
+- Click `Install`
+
+#### Option 2
+
+- Open the extensions panel in VS Code
 - Search for `Style Sorter`
 - Click `Install`
 
