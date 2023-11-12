@@ -1,0 +1,68 @@
+{
+  "name": "style-sorter",
+  "displayName": "Style Sorter",
+  "description": "Style Sorter is a VS Code extension that sorts your declarations meaningfully.",
+  "version": "0.1.0",
+  "publisher": "NateDavis",
+  "private": "true",
+  "license": "MIT",
+  "main": "./out/extension.js",
+  "icon": "media/icon.png",
+  "homepage": "https://github.com/NaeNate/style-sorter#readme",
+  "author": {
+    "name": "Nate Davis",
+    "email": "nate@qstreet.org",
+    "url": "https://github.com/NaeNate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaeNate/style-sorter.git"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "scripts": {
+    "watch": "tsc -watch -p ./",
+    "compile": "tsc -p ./",
+    "vscode:prepublish": "yarn run compile"
+  },
+  "dependencies": {
+    "css-declaration-sorter": "^7.1.1",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/vscode": "^1.84.1",
+    "typescript": "^5.2.2"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "style-sorter.sort",
+        "title": "Sort Styles"
+      }
+    ],
+    "configuration": {
+      "properties": {
+        "style-sorter.order": {
+          "type": "string",
+          "description": "Specifies how declarations should be sorted.",
+          "default": "alphabetical",
+          "enum": [
+            "alphabetical",
+            "concentric-css",
+            "smacss"
+          ],
+          "enumDescriptions": [
+            "Sort alphabetically.",
+            "Sort properties applying outside the box model, moving inward to intrinsic changes.",
+            "Sort from most important, flow affecting properties, to least important properties."
+          ]
+        }
+      }
+    }
+  }
+}
