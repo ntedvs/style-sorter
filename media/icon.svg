@@ -11,10 +11,10 @@
     </g>
 
     <g transform="matrix(0.7 0 0 1 126 55)">
-        <path style="stroke: black; stroke-width: 6; stroke-dasharray: 15 15; fill: none; stroke-linecap: round;" vector-effect="non-scaling-stroke" d="M 106 248 Q 145 149 188 156 Q 216 69 222 65" />
+        <path style="stroke: black; stroke-width: 30; stroke-dasharray: 15 50; fill: none; stroke-linecap: round;" vector-effect="non-scaling-stroke" d="M 106 248 Q 145 149 188 156 Q 216 69 222 65" />
     </g>
 
     <g transform="matrix(-0.7 0 0 1 274 55)">
-        <path style="stroke: black; stroke-width: 6; stroke-dasharray: 15 15; fill: none; stroke-linecap: round;" vector-effect="non-scaling-stroke" d="M 106 248 Q 145 149 188 156 Q 216 69 222 65" />
+        <path style="stroke: black; stroke-width: 30; stroke-dasharray: 15 50; fill: none; stroke-linecap: round;" vector-effect="non-scaling-stroke" d="M 106 248 Q 145 149 188 156 Q 216 69 222 65" />
     </g>
 </svg>

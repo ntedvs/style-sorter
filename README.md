@@ -22,3 +22,7 @@ Style Sorter is a VS Code extension that sorts your declarations meaningfully.
   - Alphabetical: Sort alphabetically.
   - Concentric: Sort properties applying outside the box model, moving inward to intrinsic changes.
   - SMACSS: Sort from most important, flow affecting properties, to least important properties.
+
+## Credits
+
+- Extension is built on [css-declaration-sorter](https://github.com/Siilwyn/css-declaration-sorter/)

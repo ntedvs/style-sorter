@@ -24,6 +24,10 @@
   "categories": [
     "Formatters"
   ],
+  "keywords": [
+    "css",
+    "vscode-extension"
+  ],
   "scripts": {
     "watch": "tsc -watch -p ./",
     "compile": "tsc -p ./",
