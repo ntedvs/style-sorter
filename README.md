@@ -1,6 +1,6 @@
 # Style Sorter
 
-Style Sorter is a VS Code extension that sorts your declarations meaningfully.
+Sorts your declarations meaningfully
 
 ## Installation
 
