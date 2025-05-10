@@ -37,14 +37,14 @@
     "publish": "pnpm vsce publish --no-dependencies"
   },
   "dependencies": {
-    "css-declaration-sorter": "^7.1.1",
-    "postcss": "^8.4.31"
+    "css-declaration-sorter": "^7.2.0",
+    "postcss": "^8.5.3"
   },
   "devDependencies": {
-    "@types/node": "^20.9.0",
-    "@types/vscode": "^1.84.1",
-    "esbuild": "^0.19.5",
-    "typescript": "^5.2.2"
+    "@types/node": "^22.15.17",
+    "@types/vscode": "^1.100.0",
+    "esbuild": "^0.25.4",
+    "typescript": "^5.8.3"
   },
   "contributes": {
     "commands": [
