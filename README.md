@@ -1,12 +1,12 @@
 # Style Sorter
 
-Sorts your declarations meaningfully
+Sort your styles meaningfully
 
 ## Installation
 
 #### Option 1
 
-- Click [here](https://marketplace.visualstudio.com/items?itemName=NateDavis.style-sorter&ssr=false)
+- Click [here](https://marketplace.visualstudio.com/items?itemName=NateDavis.style-sorter)
 - Click `Install`
 
 #### Option 2
@@ -18,7 +18,7 @@ Sorts your declarations meaningfully
 ## Usage
 
 - Press `Cmd/Ctrl + Shift + P`
-- Type `Sort Styles`
+- Type `Style Sorter: Sort`
 - Press `Enter`
 
 ## Configuration

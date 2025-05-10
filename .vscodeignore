@@ -1,5 +1,5 @@
-.vscode/
-node_modules/
-src/
-yarn.lock
-tsconfig.json
+src
+media/icon.svg
+node_modules
+pnpm-lock.yaml
+pnpm-workspace.yaml
