@@ -1,7 +1,7 @@
 {
   "name": "style-sorter",
   "displayName": "Style Sorter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Sort your styles meaningfully",
   "keywords": [
     "css",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.100.0",
-    "@vscode/vsce": "^3.3.2",
+    "@vscode/vsce": "^3.4.1",
     "esbuild": "^0.25.4",
     "typescript": "^5.8.3"
   },
